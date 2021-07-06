@@ -1,5 +1,7 @@
-# PythonProteomics
-This repository contains a list of open source Python tools for Proteomics analysis. The list is very likely incomplete and we are happy to take pull request with new tools.
+# Computational proteomics tools
+## Introduction
+
+Metaproteomics is the study of the proteins expressed in a cell, organism, or tissue. This includes protein identification and quantification (or quantitation), protein–protein interactions, protein complexes prediction, protein modifications and protein localization in the cell. Metaproteomics mostly utilizes methods originating from mass spectrometry (MS)-based proteomics. Mass spectrometry is a high performance instrument for molecular analysis, evidenced in part by the increasing number of biologists utilizing MS for protein identification, quantification, and characterization. Furthermore, Computational Proteomics is about the computational methods, algorithms, databases and methodologies used to process, manage, analyze and interpret the data produced in proteomics experiments. The broad application of proteomics in different biological and medical fields, as well as the diffusion of high-throughput platforms, leads to increasing volumes of available proteomics data requiring efficient algorithms, new data management capabilities and novel analysis, inference and visualization techniques. Here in this repository, you will find useful tools for processing, analysis, and identification and visualization proteomics data.
 
 # Contents
 
