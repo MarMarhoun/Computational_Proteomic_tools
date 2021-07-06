@@ -15,9 +15,8 @@ Here in this repository, you will find useful tools for processing, analysis, an
 
 # Packages and repositories 
 
-
+### PyProteomics
 <a name="PyProteomics"></a>
-### 
 
 [PyProteomics](https://github.com/jfnavarro/proteomics) is the name of a repository which contains a bunch of tools and scripts for processing, analysis and visualization of proteomics data (more precisely mass spectrometry data) using python language programming. 
 
@@ -25,9 +24,9 @@ Here in this repository, you will find useful tools for processing, analysis, an
 
 
 <a name="PythonProteomics"></a>
-### pyteomics
+### PythonProteomics
 
-[Pyteomics](https://pyteomics.readthedocs.io/en/latest/) : This repository contains a list of open source Python tools for Proteomics analysis. 
+[PythonProteomics](https://pyteomics.readthedocs.io/en/latest/) : This repository contains a list of open source Python tools for Proteomics analysis. 
 
 * Link: https://github.com/Roestlab/PythonProteomics
 
