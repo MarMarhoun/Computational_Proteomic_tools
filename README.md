@@ -7,7 +7,7 @@ In the proteomics community, most of the tools start to use Python widely used a
 
 Here in this repository, you will find useful tools for processing, analysis, and identification and also visualization proteomics data.
 
-> __PS:__ If there are others tools, please contact me and send them to me in private to add them.
+> __PS:__  If there are others tools, please contact me or send them to me in privately to add.
 
 # Packages and repositories 
 
