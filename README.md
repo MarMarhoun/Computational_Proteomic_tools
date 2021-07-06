@@ -29,6 +29,7 @@ Here in this repository, you will find useful tools for processing, analysis, an
 <a name="ThermoRawFileParser"></a>
 ### ThermoRawFileParser
 [ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser) Thermo RAW file parser that runs on Linux with mono. Wrapper around the .net (C#) ThermoFisher ThermoRawFileReader library for running on Linux with mono (works on Windows too). It takes a thermo RAW file as input and outputs a metadata file and the spectra in 3 possible formats: <br>
+
     - MGF: MS2 and MS3 spectra <br>
     - mzML and indexed mzML: MS1, MS2 and MS3 spectra <br>
     - Apache Parquet: under development
