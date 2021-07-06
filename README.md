@@ -1,5 +1,5 @@
 # Computational proteomics tools
-## Introduction
+# Introduction
 
 Metaproteomics is the study of the proteins expressed in a cell, organism, or tissue. This includes protein identification and quantification (or quantitation), protein–protein interactions, protein complexes prediction, protein modifications and protein localization in the cell. Metaproteomics mostly utilizes methods originating from mass spectrometry (MS)-based proteomics. Mass spectrometry is a high performance instrument for molecular analysis, evidenced in part by the increasing number of biologists utilizing MS for protein identification, quantification, and characterization. Furthermore, Computational Proteomics is about the computational methods, algorithms, databases and methodologies used to process, manage, analyze and interpret the data produced in proteomics experiments. The broad application of proteomics in different biological and medical fields, as well as the diffusion of high-throughput platforms, leads to increasing volumes of available proteomics data requiring efficient algorithms, new data management capabilities and novel analysis, inference and visualization techniques. 
 
@@ -8,15 +8,11 @@ In the proteomics community, most of the tools start to use Python widely used a
 Here in this repository, you will find useful tools for processing, analysis, and identification and also visualization proteomics data.
 
 
-# Contents
-
-
-
 
 # Packages and repositories 
 
-### PyProteomics
 <a name="PyProteomics"></a>
+### PyProteomics
 
 [PyProteomics](https://github.com/jfnavarro/proteomics) is the name of a repository which contains a bunch of tools and scripts for processing, analysis and visualization of proteomics data (more precisely mass spectrometry data) using python language programming. 
 
@@ -30,65 +26,98 @@ Here in this repository, you will find useful tools for processing, analysis, an
 
 * Link: https://github.com/Roestlab/PythonProteomics
 
-<a name="multiplierz"></a>
-### multiplierz
-[multiplierz](https://github.com/BlaisProteomics/multiplierz) is a Python software library and associated GUI desktop environment for managing proteomic mass spectrometry workflows and data analysis. Using the mzAPI interface to native instrument data formats, multiplierz is provides a complete toolset for a variety of methods for peptide identification, quantitation, and experimental reporting.
+<a name="ThermoRawFileParser"></a>
+### ThermoRawFileParser
+[ThermoRawFileParser](https://github.com/compomics/ThermoRawFileParser) Thermo RAW file parser that runs on Linux with mono. Wrapper around the .net (C#) ThermoFisher ThermoRawFileReader library for running on Linux with mono (works on Windows too). It takes a thermo RAW file as input and outputs a metadata file and the spectra in 3 possible formats:
+    •	MGF: MS2 and MS3 spectra
+    •	mzML and indexed mzML: MS1, MS2 and MS3 spectra
+    •	Apache Parquet: under development
 
-* Code: https://github.com/BlaisProteomics/multiplierz
-* Publication: https://www.ncbi.nlm.nih.gov/pubmed/28686798
+* Code: https://github.com/compomics/ThermoRawFileParser
+* Publication: https://pubmed.ncbi.nlm.nih.gov/31755270/
 
-<a name="pyproteome"></a>
-### pyproteome
+<a name="PAW_pipeline"></a>
+### PAW_pipeline 
 
-[pyproteome](https://github.com/white-lab/pyproteome): Python library for analyzing mass spectrometry proteomics data.
+[PAW_pipeline](https://github.com/pwilmart/PAW_pipeline): The PAW pipeline consists of open source Python scripts to process Thermo mass spectrometer RAW files in a best-practices shotgun proteomics analysis pipeline.
 
-* Code: https://github.com/white-lab/pyproteome
+* Code: https://github.com/pwilmart/PAW_pipeline
 
-## Specialized packages
 
-These packages contain specialized functions that help with a specific aspect of Proteomics data processing
+<a name="MSFragger"></a>
+### MSFragger
 
-<a name="pyMzML"></a>
-### pyMzML
+[MSFragger](https://github.com/Nesvilab/MSFragger): Ultra fast and comprehensive peptide identification in mass spectrometry–based proteomics. MSFragger is an ultrafast database search tool for peptide identification in mass spectrometry-based proteomics. It has demonstrated excellent performance across a wide range of datasets and applications. MSFragger is suitable for standard shotgun proteomics analyses as well as large datasets (including timsTOF PASEF data), enzyme unconstrained searches (e.g. peptidome), ‘open’ database searches (i.e. precursor mass tolerance set to hundreds of Daltons) for identification of modified peptides, and glycopeptide identification (N-Codeed and O-Codeed) with MSFragger Glyco mode.
 
-[pyMzML](https://pymzml.readthedocs.io/en/latest/): Module to parse mzML data in Python based on cElementTree.
+* Code: https://github.com/Nesvilab/MSFragger
+* Publication: https://www.nature.com/articles/nmeth.4256
 
-* Code: https://github.com/pymzml/pymzML
-* Publication: https://www.ncbi.nlm.nih.gov/pubmed/29394323
+<a name="SearchGUI"></a>
+### SearchGUI
 
-<a name="pyProphet"></a>
-### pyProphet
+[SearchGUI](https://github.com/compomics/searchgui): is a highly adaptable open-source common interface for configuring and running proteomics search and de novo engines, currently supporting X! Tandem, MyriMatch, MS Amanda, MS-GF+, OMSSA, Comet, Tide, Andromeda, MetaMorpheus, Novor and DirecTag.
 
-[PyProphet](https://github.com/PyProphet/pyprophet): Semi-supervised learning and scoring of OpenSWATH results.
+* Code: https://github.com/compomics/searchgui
+* Publication: https://pubmed.ncbi.nlm.nih.gov/29774740/
 
-* Code: https://github.com/PyProphet/pyprophet
+<a name="Denovogui"></a>
+### Denovogui
 
-<a name="msproteomicstools"></a>
-### msproteomicstools
+[Denovogui](https://github.com/compomics/denovogui): is graphical user interface for de novo sequencing of tandem mass spectra. DeNovoGUI provides a user-friendly open-source graphical user interface for running the de novo sequencing algorithms Novor, DirecTag, PepNovo+ and pNovo+ (beta) on Windows, Mac and Linux.
 
-[msproteomicstools](http://msproteomicstools.roestlab.org/): is a Python library that can be used in LC-MS/MS based proteomics. It features a core library called msproteomicstoolslib and several associated executable scripts that use the library as well as a GUI for visualizing chromatograms, specifically output from OpenSWATH.
+* Code: https://github.com/compomics/denovogui
+* Publication: https://pubmed.ncbi.nlm.nih.gov/24295440/
 
-* Code: https://github.com/msproteomicstools/msproteomicstools
+<a name="Dnmso"></a>
+### Dnmso
+[Dnmso](https://github.com/savastakan/dnmso) is an Ontology for Representing De Novo Sequencing Results from Tandem-MS Data. De Novo MS Ontology (DNMSO) can provide many-to-many mappings between spectra and peptides. In addition to this and many other improvements over DNML, an all-encompassing application programming interface which supports any file operation necessary for de novo sequencing from spectra input to reading, writing, creating, of the DNMSO format as well as conversion from existing formats. This essentially removes all overhead from the production of de novo sequencing tools and allows developers to completely concentrate on algorithm development.
 
-<a name="PaDuA"></a>
-### PaDuA
-[PaDuA](https://padua.readthedocs.io/en/latest/) is a Python package to simplify the processing and analysis of quantified proteomics data. Currently it supports processing and analysis of MaxQuant outputs, providing many of the features available in the GUI analysis tool Perseus. By scripting these processing and analysis steps you can get to your results more quickle and reproducibly.
+* Code:  https://github.com/savastakan/dnmso
+* Publication: https://pubmed.ncbi.nlm.nih.gov/33150092/
 
-* Code: https://github.com/mfitzp/padua
-* Publication: https://www.ncbi.nlm.nih.gov/pubmed/30525654
+<a name="Ursgal"></a>
+### Ursgal
 
-<a name="psims"></a>
-### psims
+[Ursgal]( https://github.com/ursgal/ursgal): is a Python module that offers a generalized interface to common bottom-up proteomics tools for Large-Scale Analysis, e.g. 
+    1. Peptide spectrum matching with up to eight different search engines (some available in multiple versions), including four open modification search engines
+    2. Evaluation and post processing of search results with up to two different engines for protein database searches as well as two engines for the post processing of mass difference results from open modification engines
+    3. Integration of search results from different search engines
+    4. De novo sequencing with up to four different search engines
+    5. Miscellaneous tools including the creation of a target decoy database as well as filtering, sanitizing and visualizing of results.
 
-[psims](https://mobiusklein.github.io/psims/docs/build/html/): A declarative API for writing XML documents for HUPO PSI-MS mzML and mzIdentML
+* Code: https://github.com/ursgal/ursgal
+* Publication: https://github.com/ursgal/ursgal
 
-* Code: https://mobiusklein.github.io/psims/
-* Publication: https://www.ncbi.nlm.nih.gov/pubmed/30563850
+<a name="py-pgatk"></a>
+### py-pgatk
 
-<a name="param-medic"></a>
-### param-medic
+[py-pgatk](https://github.com/bigbio/py-pgatk): is a Python library part of the ProteoGenomics Analysis Toolkit. It provides different bioinformatics tools for proteogenomics data analysis.
 
-[param-medic](https://github.com/dhmay/param-medic): Param-Medic breathes new life into MS/MS database searches by optimizing search parameter settings for your data.
+* Code: https://github.com/bigbio/py-pgatk
+* Documentation: https://pgatk.readthedocs.io/en/latest/pypgatk.html
 
-* Code: https://github.com/dhmay/param-medic
-* Publication: https://www.ncbi.nlm.nih.gov/pubmed/30714740
+<a name="Peptide-shaker"></a>
+### Peptide-shaker
+
+[Peptide-shaker](https://github.com/compomics/peptide-shaker): is a search engine independent platform for interpretation of proteomics identification results from multiple search and de novo engines, currently supporting X!Tandem, MS-GF+, MS Amanda, OMSSA, MyriMatch, Comet, Tide, Mascot, Andromeda, MetaMorpheus, Novor, DirecTag and mzIdentML. PeptideShaker aggregates the results in a single identification set, annotates spectra, computes a consensus score, maps sequences and performs protein inference, scores post-translational modification localization, runs statistical validation, quality control, and annotates the results using multiple sources of information like Gene Ontology, UniProt and Ensemble annotation, and protein structures.
+
+* Code: https://github.com/compomics/peptide-shaker
+* Publication: https://www.nature.com/articles/nbt.3109
+
+<a name="PyQms"></a>
+### PyQms
+
+[PyQms](https://github.com/pyQms/pyqms): is an open-source software for accurate quantification of all types of molecules measurable by MS. pyQms uses isotope pattern matching which offers accurate quality assessment of the quantification and the ability to directly incorporate mass spectrometer accuracy. pyQms is an extension to Python that offers amongst other things: 
+    1.	fast and accurate quantification of all high-res LC-MS data
+    2.	full labeling and modification flexibility
+    3.	full platform independence
+
+* Code: https://github.com/pyQms/pyqms
+* Publication: https://pubmed.ncbi.nlm.nih.gov/28729385/
+
+<a name="qPLEXanalyzer"></a>
+### qPLEXanalyzer
+
+[PyQms](https://github.com/pyQms/pyqms): is an R package for statistical analysis of qPLEX-RIME proteomics data. It can also be used for isobaric labelling based proteome analysis. The major functionalities includes import of quantitative proteomics datasets, visualizing quality control statistics, data normalization and differential statistics analysis.
+
+* Code: https://github.com/crukci-bioinformatics/Proteomics_package
