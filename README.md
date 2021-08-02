@@ -53,6 +53,13 @@ Here in this repository, you will find useful tools for processing, analysis, an
 * Code: https://github.com/Nesvilab/MSFragger
 * Publication: https://www.nature.com/articles/nmeth.4256
 
+### AlphaPept
+
+[AlphaPept](https://github.com/MannLabs/alphapept) a Python-based open-source framework for efficient processing of large high-resolution MS data sets. Using Numba for just-in-time machine code compilation on CPU and GPU, they achieve hundred-fold speed improvements while maintaining clear syntax and rapid development speed. AlphaPept uses the Python scientific stack of highly optimized packages, reducing the code base to domain-specific tasks while providing access to the latest advances in machine learning. they provide an easy on-ramp for community validation and contributions through the concept of literate programming, implemented in Jupyter Notebooks of the different modules. A framework for continuous integration, testing, and benchmarking enforces solid software engineering principles. Large datasets can rapidly be processed as shown by the analysis of hundreds of cellular proteomes in minutes per file, many-fold faster than the data acquisiton. The AlphaPept framework can be used to build automated processing pipelines using efficient HDF5 based file formats, web-serving functionality and compatibility with downstream analysis tools.
+
+* Code : https://github.com/MannLabs/alphapept
+* Publication : https://www.biorxiv.org/content/10.1101/2021.07.23.453379v1
+
 <a name="SearchGUI"></a>
 ### SearchGUI
 
